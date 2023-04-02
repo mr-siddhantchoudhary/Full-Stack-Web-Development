@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        /* .hello:hover{
+            background-color: black;
+            color: white;
+        }
+        input:focus{
+            font-size: 25px;
+            color: brown;
+            background-color: pink;
+        } */
+        /* a:hover{
+            color: crimson;
+        }
+        a:active{
+            color: pink;
+        }
+        a:visited{
+            color:darkgoldenrod;
+        } */
+        /* a:first-child{
+            background-color: yellow;
+            color: yellowgreen;
+        } */
+        /* a:nth-child(2n + 1){
+            background-color: pink;
+        } */
+        .lorem::before{
+            content: "PW SKILLS ";
+            color: #ee1a1a;
+        }
+        .lorem::after{
+            content: " PW SKILLS";
+            color: #f01212;
+        }
+        ::selection{
+            background-color: yellow;
+            color: Red;
+        }
+        ::marker{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <p class="hello">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, deserunt sunt aliquid dolorum fugit vel veritatis eaque animi ipsa quam maiores suscipit quibusdam itaque rem qui aperiam vitae accusamus. Quo ad rem aliquid fugit est, culpa vel porro eos, nesciunt dolor ratione cumque sint quas totam enim dolore repellat quibusdam!</p>
+
+    <input type="text">
+    <hr>
+    <nav>
+        <a href="#">HELLOW</a>
+        <a href="#">HELLOW</a>
+        <a href="#">HELLOW</a>
+    </nav>
+    <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores cumque inventore placeat veritatis praesentium, fugit accusamus expedita repudiandae ad quaerat quae saepe rem qui dolore dolor quibusdam facere odio. Suscipit numquam atque asperiores tempora alias error vel! Quia velit temporibus, excepturi officiis praesentium tenetur earum, in animi quod voluptatibus at dolor perferendis ut aliquid inventore. Aliquid laboriosam delectus mollitia, accusamus eligendi sit quos quidem illum rem sunt reprehenderit incidunt expedita quis perspiciatis ipsa deserunt porro tenetur magnam repellendus, dolorem quia molestias sint. Dolore perspiciatis a provident ipsa, consectetur officia, eum modi aliquam odit veniam adipisci id ut non distinctio est!</p>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ul>
+</body>
+</html>
