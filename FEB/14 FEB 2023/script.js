@@ -71,5 +71,49 @@
 //         break;
 // }
 
-var x = (10 > 5) ? "somethign";
-console.log(x);
+// var x = (10 > 5) ? "somethign";
+// console.log(x);
+
+// let arr = [
+//     "iPhone",
+//     "Macbook Pro",
+//     "Flower pot",
+//     "Water Bottle",
+//     "Mac Studio Mini",
+//     "Watch",
+//     "Tennis Ball",
+//     "Mouse Pad",
+//     "Keyboard",
+//     "Lens",
+// ];
+
+// let studentRegistery = {
+//     1: "Mithun",
+//     2: "Alka",
+//     3: "Anurag",
+//     4: "Prabir",
+//     5: "Shivam",
+// };
+
+/*
+    OUTPUT:
+
+    6 * 1 = 6
+    6 * 2 = 12
+    6 * 3 = 18
+    6 * 4 = 24
+    6 * 5 = 30
+    6 * 6 = 36
+    6 * 7 = 42
+    6 * 8 = 48
+    6 * 9 = 54
+    6 * 10 = 60
+*/
+
+
+let number = 6;
+
+for (let i = 1; i <= 10; i++){
+
+    console.log(`${number} * ${i} = ${number * i}`);
+}
