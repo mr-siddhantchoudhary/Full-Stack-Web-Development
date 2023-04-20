@@ -1,0 +1,41 @@
+<!-- 
+3. Color Mixer
+Write a JavaScript program that takes in two strings representing colors and uses a switch statement to
+determine the resulting color when the two colors are mixed. The program should print the resulting color
+based on the following criteria"
+-> If color1 is "red" and color2 is "blue" or vice versa, print "purple".
+-> If color1 is "red" and color2 is "yellow" or vice versa, print "orange".
+-> If color1 is "blue" and "color2" is "yellow" or vice versa, print "green".
+-> If any other combination of colors is input, the program should print "Invalid color combination".
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixer</title>
+
+    <!-- adding css file -->
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <section class="mainSection">
+        <div class="colorFields">
+            <div class="field1">
+                <p>Color One:</p>
+                <input type="text" id="colorOne">
+            </div>
+            <div class="field2">
+                <p>Color Second:</p>
+                <input type="text" id="colorSecond">
+            </div>
+        </div>
+        <button id="mixer" onclick=mixer()>Mix</button>
+        <p id="resultPara"><span id="error"></span>Note: Enter only <span>'red:blue'</span>, <span>'red:yellow'</span> or <span>'blue:yellow'</span></p>
+    </section>
+
+    <script src="./script.js"></script>
+ </body>
+ </html>

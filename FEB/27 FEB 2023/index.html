@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript | DOM</title>
+</head>
+<body>
+    <!-- ID -->
+    <p id="parg"><span>Hero</span> Nameste</p>
+    <p id="prag2">World</p>
+
+    <!-- CLASS -->
+    <ul>
+        <li class="tech">One</li>
+        <li class="tech">Two</li>
+        <li class="tech">Three</li>
+    </ul>
+
+    <!-- tag name -->
+    <h4>Heloo</h4>
+    <h4 class="class">Hello Nameste</h4>
+    <h4 class="id">Hola</h4>
+
+    <!-- query selecter  -->
+    <h2>Heloo</h2>
+    <h2 class="classs">Hello Nameste</h2>
+    <h2 class="id">Hola</h2>
+    <script>
+        //ID
+        let prag = document.getElementById("parg");
+        console.log(prag.innerText);
+
+        //Class
+        let tech = document.getElementsByClassName('tech')
+        console.log(tech[1].innerText);
+        tech[2].innerText = 'Node JS';
+
+        //Teg Name
+        let tagname = document.getElementsByTagName('h4');
+        console.log(tagname[2]);
+        tagname[2].style.backgroundColor = "red";
+        tagname[2].style.color = "white";
+
+        //query selecter
+        let query = document.querySelector(".classs");
+        console.log(query);
+        // query.className = "anurag"
+        // query.classList = "anurag pwskills pw"
+        query.setAttribute("title","pwskills");
+    </script>
+</body>
+</html>

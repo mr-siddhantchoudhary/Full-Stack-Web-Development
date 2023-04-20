@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counterApp{
+    border: 1px black solid;
+    box-shadow: rgba(149, 157, 165, 0.8) 0px 8px 24px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7px;
+}
+
+button{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#counterBlock{
+    width: 30px;
+    text-align: center;
+    font-weight: 800;
+}

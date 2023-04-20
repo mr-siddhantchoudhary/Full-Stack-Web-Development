@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSection{
+    border: 2px black solid;
+    padding: 20px;
+    box-shadow: rgba(1, 2, 3, 0.8) 10px 10px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.markField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 100px;
+    padding: 3px;
+}
+
+p{
+    font-weight: 600;
+}
+
+button{
+    font-weight: 700;
+    padding: 3px;
+}
+
+.markFieldInside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

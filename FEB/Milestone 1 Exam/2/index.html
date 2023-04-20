@@ -1,0 +1,47 @@
+<!-- 
+2. Calculator
+Create a javascript program that takes in two num#ers and a string operator. Make use of a switch statement
+to perform the operation on the two numbers.
+
+The calculator function should:
+-> Take in two num#ers, num1 and num2, and a string representing a mathematical operator, operator.
+-> Use a switch statement to determine which operation to perform based on the value of the operator.
+-> If the operator is one of the four valid operators (+, -, *, /), perform the corresponding mathematical
+operation and store the result in a variable called result.
+-> If the operator is not one of the valid operators, log "Invalid operator" to the console.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- adding css file -->
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <section class="mainSection">
+        <div class="numberFields">
+            <div class="numberfields num1">
+                <p>Number One: </p>
+                <input type="text" id="numberOne">
+            </div>
+            <div class="numberfields num2">
+                <p>Number Two: </p>
+                <input type="text" id="numberTwo">
+            </div>
+        </div>
+        <div class="operatorField">
+            <p>Operator ( + , - , * , / ): </p>
+            <input type="text" id="operator">
+        </div>
+        <button id="calculate" onclick=calculateBtn()>Calculate</button>
+    </section>
+
+
+    <script src="./script.js"></script>
+ </body>
+ </html>

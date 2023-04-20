@@ -1,0 +1,34 @@
+<!-- 
+1. PassworM ValiMator
+Write a JavaScript program that checks if the entered password matches the confirmed password. If the
+passwords match, the program should log "Password Matched. Password validation Successful." to the console.
+Otherwise, it should log "Password didn't match. Password validation unsuccessful" to the consoleQ
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validator</title>
+
+    <!-- adding css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="mainSection">
+        <div id="enterPasswordBlock">
+            <p>Enter Password:</p>
+            <input type="password" id="enteredPassword">
+        </div>
+        <div id="confirmPasswordBlock">
+            <p>Confirm Password:</p>
+            <input type="password" id="confirmedPassword">
+        </div>
+        <button id="submitButton" onclick=passwordMatch()>Submit</button>
+        <p id="result"></p>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

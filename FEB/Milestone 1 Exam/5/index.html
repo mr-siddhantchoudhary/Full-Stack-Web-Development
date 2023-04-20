@@ -1,0 +1,37 @@
+<!-- 5. Capitalize
+
+You are building a form where users can enter their names. You want to make sure that the first letter of the 
+name is always capitalized, even if the user forgets to do so. Write a program that takes in the user's name as a 
+string and uses the ternary operator to check if the first letter is lowercase. If it is, the program capitalizes it and 
+returns the modified string. Otherwise, it returns the original string without any changes 
+
+
+example:   User Name = siddhant
+            Return string = Siddhant
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitalize</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="mainSection">
+        <div id="nameBlock">
+            <p>Name: </p>
+            <input type="text" id="name">
+        </div>
+        <div id="resultBlock">
+            <p id="resultPara"></p>
+        </div>
+        <button id="submitBtn" onclick=capitalize()>Submit</button>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
