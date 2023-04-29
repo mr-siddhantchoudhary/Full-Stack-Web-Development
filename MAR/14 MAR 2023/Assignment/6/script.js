@@ -16,3 +16,7 @@ const person = {
 const result = extractNameAndStreet(person);
 
 console.log(result);
+
+ const arr = [1, 2, 3, 4];
+ const arr2 = [5, 6, 7];
+
